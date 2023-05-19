@@ -6,7 +6,7 @@ export function MyForm() {
 
   function onSubmit(event) {
     event.preventDefault();
-    socket.emit('message', value);
+    socket.emit('message',{user:'user1','message':value});
   }
 
   return (
