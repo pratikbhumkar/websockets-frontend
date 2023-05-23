@@ -19,7 +19,7 @@ export default function App() {
     }
 
     function onMessageResponse(value) {
-      setMessageResponse(previous => [...previous, value]);
+      setMessageResponse(previous => [...previous, value['user']+': '+value['message']]);
     }
 
     socket.on('connect', onConnect);
