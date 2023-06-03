@@ -42,11 +42,9 @@ export default function App() {
         <div className='messages-window'>
           <MessageWindow messages={messageResponse} />
         </div>
-        {/* <ConnectionManager /> */}
         <MyForm />
         <ConnectionStatus connectionState={connectionState}/>
       </div>
-      {/* <ChatMessage/> */}
     </div>
   );
 }
