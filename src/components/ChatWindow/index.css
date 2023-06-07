@@ -1,0 +1,15 @@
+.messages-window {
+  height: 88vh;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0px;
+}
+
+.chat-window {
+  width: 50vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #e4fbe7 0%, #eeeff2 100%);
+}
