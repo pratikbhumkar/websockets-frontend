@@ -1,0 +1,28 @@
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(162, 185, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    width: 20%;
+    height: 10%;
+    border: none;
+    background-color: #ffffff;
+    color: #6E4C67;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(230, 215, 220);
+  }
+  
+  .login-button:active {
+    background-color: #bbbbbb;
+  }
+  
