@@ -1,0 +1,32 @@
+
+# Reason for this change
+
+- What the problem you'd like to solve?
+- What the new feature you'd like to bring in?
+- Any screen shots or short video if applicable.
+
+# Necessary information
+
+- Please link to github issue or external documentation (if it exists).
+
+# Overview of the change
+
+- Please give the main changes you've done here.
+
+# Necessary checking
+
+- [ ] Accessibility (e.g., html markup, keyboard navigation, accessibility tree) [Accessibility Guide](https://community.rea-group.com/docs/DOC-74535-finx-accessibility-tups)
+- [ ] Bump up version if needed(make sure use the correct [Semantic Version](https://semver.org/))
+
+### Browsers
+
+- [ ] Chrome
+- [ ] Firefox
+- [ ] Safari
+- [ ] IE11
+- [ ] Edge
+
+### Devices
+
+- [ ] Android
+- [ ] iOS
